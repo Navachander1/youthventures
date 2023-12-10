@@ -1,0 +1,59 @@
+//
+// Variables
+//
+
+// Reboot
+$app-bg-color: #F7F7F7;
+$app-bg-color-dark: $coal-400; 
+$app-blank-body-bg-color: $body-bg;
+
+// General
+$app-general-root-font-size-desktop: 13px;
+$app-general-root-font-size-tablet: 12px;
+$app-general-root-font-size-mobile: 12px;
+
+// Container
+$app-container-padding-x: 40px;
+
+// Header base
+$app-header-base-height: 160px;
+$app-header-base-height-mobile: 70px;
+$app-header-bg: linear-gradient(90deg, rgba(228,239,249,1) 0%, rgba(228,239,249,1) 100%);
+$app-header-bg-dark: rgb(228,239,249);
+$app-header-bg-height: 100% 340px;
+$app-header-bg-height-mobile: 100% 200px;
+
+
+// Header sticky
+$app-header-sticky-height: 90px;
+$app-header-sticky-height-mobile: 60px;
+$app-header-sticky-bg-color: $body-bg;
+$app-header-sticky-bg-color-dark: $coal-600;
+$app-header-sticky-box-shadow: 0px 10px 30px 0px rgba(82,63,105,0.05);
+$app-header-sticky-box-shadow-dark: $box-shadow-dark;
+
+// Sidebar base
+$app-sidebar-base-width: 280px;
+$app-sidebar-base-width-mobile: 280px;
+$app-sidebar-gap: 30px;
+
+// Content
+$app-content-padding-y: 10px;
+$app-content-padding-y-mobile: 5px;
+
+// Footer
+$app-footer-height: auto;
+$app-footer-height-mobile: auto;
+
+// Scrolltop
+$scrolltop-bottom: 43px;
+$scrolltop-bottom-mobile: 23px;
+$scrolltop-end: 7px;
+$scrolltop-end-mobile: 5px;
+
+// Layout builder toggle(used for Demo purposes only)
+$app-layout-builder-toggle-bg-color: $body-bg;
+$app-layout-builder-toggle-end: 50px;
+$app-layout-builder-toggle-end-mobile: 40px;
+$app-layout-builder-toggle-bottom: 40px;
+$app-layout-builder-toggle-bottom-mobile: 20px;

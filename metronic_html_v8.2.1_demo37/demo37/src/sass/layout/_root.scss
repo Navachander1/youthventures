@@ -1,0 +1,15 @@
+//
+// Root
+//
+
+// Light mode
+@include color-mode(light) {
+    // Header
+    --#{$prefix}header-bg: #{$app-header-bg}; 
+}
+
+// Dark mode
+@include color-mode(dark) {
+    // Header
+    --#{$prefix}header-bg: #{$app-header-bg-dark}; 
+}
