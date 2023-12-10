@@ -1,0 +1,29 @@
+//
+// Sidebar
+//
+
+// Desktop mode
+@include media-breakpoint-up(lg) {
+	.app-sidebar {
+		left: auto !important;
+		top: $app-header-base-height !important;
+		transition: top $app-general-transition-duration $app-general-transition-timing;   		
+
+		[data-kt-app-header-sticky="on"] & {
+			top: #{$app-header-sticky-height + $app-sidebar-gap} !important;
+			transition: top $app-general-transition-duration $app-general-transition-timing;   		
+		}
+	}
+
+	.app-sidebar-wrapper {
+		@include border-radius($card-border-radius);	
+		background-color:  var(--#{$prefix}body-bg);
+	}
+}
+
+// Tablet & mobile modes
+@include media-breakpoint-down(lg) {
+	.app-sidebar {
+		background-color:  var(--#{$prefix}body-bg);
+	}
+}

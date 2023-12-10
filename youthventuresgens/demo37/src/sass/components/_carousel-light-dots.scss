@@ -1,0 +1,11 @@
+//
+// Carousel light dots
+//
+
+.carousel-custom.carousel-light-dots {
+	ol > li:not(.active) {
+		&:after {
+			background-color: $white;
+		}
+	}
+}
